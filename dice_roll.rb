@@ -6,3 +6,10 @@ def roll
   # code goes here
   return rand(1..6)
 end
+
+def rollArray
+  array = [1,2,3,4,5,6]
+  puts array.sample
+end
+
+rollArray()
